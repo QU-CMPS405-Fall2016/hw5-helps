@@ -1,4 +1,4 @@
-If you are passing other test cases, but struggling with tests 6-10, you might have a bug related to your integers overflowing.  
+If you are passing other test cases, but struggling with the Hard ones, you might have a bug related to your integers overflowing.  
 Try this set of inputs with your program and see what happens...
 
 ```
