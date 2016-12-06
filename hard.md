@@ -9,5 +9,4 @@ Try this set of inputs with your program and see what happens...
 555
 ```
 
-Note: This is not the testcase being used for grading, but it should show you
-the integer overflow problem.
+(Note: This is not the input used for the Hard tests.)

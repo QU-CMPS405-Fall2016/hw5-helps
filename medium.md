@@ -1,4 +1,5 @@
-If you fail test 5, but pass the first three testcases, you should double check to see if you calculate CPU utilization correctly.  
+If you fail the Medium tests but pass the Simple ones, you should double check
+to see if you calculate CPU utilization correctly.
 
 Consider the following input:
 ```
@@ -10,3 +11,5 @@ Consider the following input:
 ```
 
 Manually verify that you are calculating CPU utilization correctly.
+
+(Note: This is not the input used for the Medium tests.)
