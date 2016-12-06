@@ -1,15 +1,17 @@
 This is a BIG HINT for the first four testcases.
 Here is the input and expected output for each algorithm.
 
----input---
+### Input
+```
 10
 100
 10
 10
 555
----end input---
+```
 
----fifo.trace---
+### fifo.trace
+```
 Time	Event		Task
 6	Arrival		Task 0 (at:6,bt:10,pr:2)
 6	Serving		Task 0 (at:6,bt:10,pr:2)
@@ -47,9 +49,10 @@ Performance Measures:
 	Average response time: 156.80
 	Average turnaround time: 204.90
 	CPU Utilization: 100.00%
----end fifo.trace---
+```
 
----sjf.trace---
+### sjf.trace
+```
 Time    Event           Task
 6       Arrival         Task 0 (at:6,bt:10,pr:2)
 6       Serving         Task 0 (at:6,bt:10,pr:2)
@@ -87,9 +90,10 @@ Performance Measures:
         Average response time: 107.20
         Average turnaround time: 155.30
         CPU Utilization: 100.00%
----end sjf.trace---
+```
 
----rr.trace---
+### rr.trace
+```
 Time	Event		Task
 6	Arrival		Task 0 (at:6,bt:10,pr:2)
 6	Serving		Task 0 (at:6,bt:10,pr:2)
@@ -213,9 +217,10 @@ Performance Measures:
 	Average response time: 25.00
 	Average turnaround time: 269.60
 	CPU Utilization: 100.00%
----end rr.trace---
+```
 
----multilevel.trace---
+### multilevel.trace
+```
 Time	Event		Task
 6	Arrival		Task 0 (at:6,bt:10,pr:2)
 6	Serving		Task 0 (at:6,bt:10,pr:2)
@@ -265,4 +270,4 @@ Performance Measures:
 	Average response time: 150.30
 	Average turnaround time: 198.40
 	CPU Utilization: 100.00%
----end multilevel.trace---
+```
