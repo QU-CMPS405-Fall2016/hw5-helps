@@ -1,4 +1,4 @@
-This is a BIG HINT for the first four testcases.
+This is a BIG HINT for the first three testcases.
 Here is the input and expected output for each algorithm.
 
 ### Input
