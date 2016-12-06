@@ -1,5 +1,4 @@
-If you fail test 4, you should double check to see if you calculate
-CPU utilization correct.  
+If you fail test 5, but pass the first three testcases, you should double check to see if you calculate CPU utilization correctly.  
 
 Consider the following input:
 ```
