@@ -20,7 +20,10 @@ Currently, I calculate CPU utilization according to the following formula:
 Utilization = (total_time - idle_time) * 100 / (total_time)
 
 The bug is that when counting the idle_time, I forgot to count the time the
-CPU is idle before the arrival of the first process.  This makes the simple
+CPU is idle before the arrival of the first process.  You can noticed
+this below because all the utilizations are output as 100%, but the trace
+shows that the CPU is actually idle for the first 6 ms.
+This bug makes the simple
 test case much easier (because CPU Utilization is 100%), but is not quite
 correct.  Sadly, you need to replicate this bug.
 
