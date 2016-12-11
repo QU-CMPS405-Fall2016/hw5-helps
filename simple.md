@@ -10,6 +10,20 @@ Here is the input and expected output for each algorithm.
 555
 ```
 
+### Bug Note
+The solution used by the autograder has a bug related to CPU utilization that
+you will need to replicate.  (Fixing the bug would make all the simple cases
+much more difficult, which I don't want to do.)  
+
+Currently, I calculate CPU utilization according to the following formula:
+
+Utilization = (total_time - idle_time) * 100 / (total_time)
+
+The bug is that when counting the idle_time, I forgot to count the time the
+CPU is idle before the arrival of the first process.  This makes the simple
+test case much easier (because CPU Utilization is 100%), but is not quite
+correct.  Sadly, you need to replicate this bug.
+
 ### fifo.trace
 ```
 Time	Event		Task
