@@ -283,7 +283,7 @@ Time	Event		Task
 487	Departure	Task 7 (at:45,bt:4,pr:2)
 
 Performance Measures:
-	Average waiting time: 398.10
+	Average waiting time: 150.30
 	Average response time: 150.30
 	Average turnaround time: 198.40
 	CPU Utilization: 100.00%
